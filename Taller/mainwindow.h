@@ -15,6 +15,10 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     
+public slots:
+//    void clienteBuscar();
+    void about();
+
 private:
     Ui::MainWindow *ui;
 };
