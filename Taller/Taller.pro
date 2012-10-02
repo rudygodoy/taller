@@ -11,8 +11,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    taller.cpp \
+    vehiculo.cpp \
+    cliente.cpp \
+    auto.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    taller.h \
+    vehiculo.h \
+    cliente.h \
+    auto.h
 
 FORMS    += mainwindow.ui
