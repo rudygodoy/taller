@@ -24,3 +24,7 @@ HEADERS  += mainwindow.h \
     auto.h
 
 FORMS    += mainwindow.ui
+
+OTHER_FILES += \
+    README.md \
+    LICENSE.txt
