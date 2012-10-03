@@ -12,6 +12,7 @@ class Vehiculo
 
 public:
     Vehiculo();
+    ~Vehiculo();
 };
 
 #endif // VEHICULO_H
